@@ -1,4 +1,4 @@
-function cycleVar(countNumber) {
+function loopVar(countNumber) {
     let firstNumber = 1;
     let secondNumber = 1;
     let findNumber;
@@ -16,7 +16,7 @@ function cycleVar(countNumber) {
     }
 }
 
-function cycleArr(countNumber) {
+function loopArr(countNumber) {
     let number = [1, 1];
     
     if (countNumber <= 0) {
@@ -48,10 +48,10 @@ let mark = parseInt(prompt('Виберіть метод виконання по�
 
     switch (mark) {
         case 1:
-            document.write(cycleVar(countNumber));
+            document.write(loopVar(countNumber));
             break;
         case 2:
-            document.write(cycleArr(countNumber));
+            document.write(loopArr(countNumber));
             break;
         case 3:
             document.write(recursion(countNumber));
