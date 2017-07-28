@@ -33,9 +33,7 @@ function cycleArr(countNumber) {
 }
 
 function recursion(countNumber){
-    let number ;
-     
-   if(countNumber>2){
+  if(countNumber>2){
     return recursion(countNumber - 1) + recursion(countNumber - 2);
      }else if (countNumber <= 0) {
         return ("Такого числа немає!")
